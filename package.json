@@ -1,0 +1,32 @@
+{
+  "name": "ws-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:dev": "ts-node src/index.ts",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "ws": "^8.18.0"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.14.11",
+    "@types/ws": "^8.5.11",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  }
+}
